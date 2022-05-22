@@ -1,0 +1,12 @@
+- hosts: web-server
+  
+  vars_files:
+    - ./vars/variables.yml
+  roles:
+    - common
+    # - php
+    # - mysql
+    # - composer
+    # - git_clone
+    - nginx
+    - letsencrypt

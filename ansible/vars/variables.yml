@@ -1,0 +1,5 @@
+# nginx
+virtual_server_name: example.com #nginx指定するServername
+
+#SSL(let's encrypt) #let's encryptで有効期限を知らせるメール通知先
+ssl_email: victas.tt@gmail.com
